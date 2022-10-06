@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    background:rgba(213, 214, 175, 0.927);   
+    clear: both;
+}
+
+/* ABERTURA CABEÇALHO*/
+
+#area-cabecalho {
+    background-color: orange;
+    padding: 1rem;
+    text-align: center;
+}
+
+#arealogo, #area-menu {
+    padding: 1rem;
+    font-size: 2.4rem;
+    color: #000000;   
+}
+
+h1 {
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4.6rem;
+    text-align: center;
+    color: #000000;
+}
+
+/*LINKS ABERTURA*/
+
+a {
+    text-decoration: none;
+}
+a:link, a :visited {
+    color: #000000;
+    padding: 1rem;
+}
+
+A:hover {
+    color: red;
+    background: yellow;
+    padding: 2px;
+    text-decoration: underline;
+}
+/*LINKS FECHAMENTO*/
+/*FECHAMENTO CABEÇALHO*/
+
+/*ABERTURA PRINCIPAL*/
+
+#area-principal {
+   
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens, #area-lateral {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(239, 243, 244);
+    
+}
+
+#area-postagens {
+    width: 350px;
+    float: left;
+    
+}
+
+.foto {
+    padding: 25px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+   
+}
+.fotoweb { 
+    padding: 10px;
+    margin-left: 100px;    
+}
+.maquina {  
+    padding: 15px;  
+}
+
+#area-lateral {
+    width: 550px;
+    float: right;
+ margin-bottom: 15px;
+    
+}
+
+/*ABERTURA ÁREA SECUNDÁIA*/
+#area-principal-secundaria{   
+    width: 920px;
+    margin: 0 auto;   
+}
+
+#area-postagens-secundaria {
+    width: 300px;    
+    float: right;
+    background-color: rgb(239, 243, 244);
+    margin-top: 10px;
+    text-align: center;
+}
+
+#area-lateral-secundaria {
+    width: 600px;
+    float: left;  
+}
+.servico {
+    background-color: #dee9dc;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.servicoweb {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 145px;
+    color: rgb(248, 1, 1)
+
+}
+.erropc { 
+    width: 324px;
+    height: 185px;
+    margin-right: 30px;
+    margin-top: 5px; 
+}
+.erro { 
+    width: 124px;
+    height: 185px;      
+}
+.girafaspc {
+    width: 324px;
+    height: 185px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.girafa {
+    width: 124px;
+    height: 185px;
+}
+.insiratitulo {
+    width: 221px;
+    height: 419px;
+    margin-right: 260px;
+    margin-top: 10px;
+}
+.lista {
+    width: 240px;
+    height: 419px;
+    margin-left: 240px;
+    margin-top: -880px;
+    margin-bottom: 10px;
+}
+/*FECHAMENTO ÁREA SECUNDÁRIA*/
+
+/*Início animação ícone*/
+.icone {
+    animation: animacao-icone 800ms ease-in-out infinite alternate;
+}
+
+@keyframes animacao-icone {
+    to {
+        transform: translateY(-1rem);
+    }
+    from {
+        transform: translateY(1rem);
+    }
+}
+/* final animação ícone*/
+
+/*FECHAMENTO ÁREA TERCIÁRIA*/
+#area-principal-terciaria{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens-terciaria{  
+    width: 920px;
+    height: 300px;
+    float: right;
+    background-color: rgb(239, 243, 244);
+    margin-top: 5px;
+    text-align: center; 
+}
+
+#area-lateral-terciaria {
+    width: 600x;
+    float: right;   
+}
+.fotografia{
+    background-color:#dee9dc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;    
+}
+.servicofoto {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    color: red;   
+}
+
+.bolo { 
+    width: 175px;
+    height: 190px;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+    margin-bottom: 20px;
+    
+}
+.esportiva{ 
+    width: 175px;
+    height: 190px;
+    margin-top: 50px;
+    margin-left: 10px; 
+    margin-bottom: 20px;  
+}
+
+.paisagem {
+    width: 175px;
+    height: 190px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;   
+}
+
+.artistica {
+    width: 175px;
+    height: 190px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+.violao {
+    width: 243px;
+    height: 190px;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+    margin: auto;
+}
+
+.arquitetura{
+    width: 410px;
+    height: 190px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.igreja {
+    width: 120px;
+    height: 190px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+/*RODAPÉ*/
+#rodape {
+    clear: both;
+    text-align: center;
+    font-size: 20px;
+    background: orange;
+    padding: 10px;
+}
+.vermelho {
+    color: red;
+}
+/*RODAPÉ*/
+
+/*FECHAMENTO ÁREA TERCIÁRIA*/
+/*FONTES E LETRAS*/
+h2 {
+    font-family: 'Michroma';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #000000;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center; 
+}
+h3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 30px;
+    text-align: justify;  
+    color: #000000;
+    padding: 10px; 
+}
+/*FONTES E LETRAS*/
+
